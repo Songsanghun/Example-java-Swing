@@ -21,12 +21,13 @@ public interface AdminService {
 		// read some
 		// read all
 		// read special
-		public MemberBean findById(String id); // MemberBean 에서 find 해라 String id를 
-		public MemberBean[] findByName(String name); //name을 findByname해라 반환은 Memberan[]로
+		public MemberBean findById(MemberBean member); 
+		public MemberBean[] findByName(MemberBean member); 
 		public DoctorBean[] dotctorlist();
 		public NurseBean[] nurselist();
 		
-		public int count();
+		public int docCount();
+		public int nurCount();
 		/**
 		* UPDATE : UPDATE
 		*

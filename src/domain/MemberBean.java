@@ -56,5 +56,8 @@ public class MemberBean {
 	return result;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return String.format("%s %s %s %s %s %s", uid ,name,ssn,email,addr,phone);
+	}
 }

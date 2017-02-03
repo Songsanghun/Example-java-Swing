@@ -7,7 +7,7 @@ import constants.Hospital;
 
 import javax.swing.JOptionPane;
 
-public class Controller {
+public class PatientController {
 	AdminService service = new AdminServiceImpl();
 	DoctorBean doc = null;
 	NurseBean nur = null;
